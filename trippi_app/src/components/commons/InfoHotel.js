@@ -1,9 +1,10 @@
-import { Card, CardContent, CardMedia, Typography, Container } from "@mui/material";
+import { Card, CardContent, CardMedia, Typography, Container, Button } from "@mui/material";
+import CardActions from '@mui/material/CardActions';
 import { getDefaultNormalizer } from "@testing-library/react";
 
 export default function Hotel() {
     return (
-        <Container>
+        <Container >
             <Card>
                 <CardMedia
                     component="img"
@@ -19,6 +20,10 @@ export default function Hotel() {
 
                     </Typography>
                 </CardContent>
+                <CardActions> 
+                    <Button variant="contained">Reservar</Button>  
+                    <Button>Consultar</Button>
+                </CardActions>
             </Card>
 
         </Container>
