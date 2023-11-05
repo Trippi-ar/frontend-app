@@ -1,5 +1,7 @@
 import React,  { useState }from 'react';
 
+import { IconButton } from '@mui/material';
+
 function Loggin() {
   const [email, setEmail] = useState('');
   const [password, setPassword] = useState('');
@@ -13,7 +15,7 @@ function Loggin() {
   };
 
   const handleLogin = () => {
-    // Aquí puedes agregar la lógica de autenticación, por ejemplo, enviar los datos al servidor.
+    // aca va la lógica de autenticación, por ejemplo, enviar los datos al servidor.
     console.log('Email:', email);
     console.log('Password:', password);
   };
@@ -33,6 +35,7 @@ function Loggin() {
         <button type="button" onClick={handleLogin}>
           Iniciar sesión
         </button>
+        <IconButton href="./">Volver</IconButton>
       </form>
     </div>
   );
