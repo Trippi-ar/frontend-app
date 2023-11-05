@@ -4,11 +4,11 @@ import { getDefaultNormalizer } from "@testing-library/react";
 
 export default function Hotel() {
     return (
-        <Container >
+        <Container style={{margin : 10}} >
             <Card>
                 <CardMedia
                     component="img"
-                    image="https://via.placeholder.com/1000x200"
+                    image="https://picsum.photos/200"
                     height="200"
                     alt="descripcion" />
                 <CardContent>

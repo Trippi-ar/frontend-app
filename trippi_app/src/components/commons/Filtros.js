@@ -6,13 +6,13 @@ import NativeSelect from '@mui/material/NativeSelect';
 
 export default function Filtros() {
     return (
-        <Box sx={{ minWidth: 120 , display: "flex", marginTop: 5}}>
+        <Box sx={{ minWidth: 120 , display: "flex", marginTop:5}}>
             <FormControl fullWidth>
                 <InputLabel variant="outlined" htmlFor="uncontrolled-native">
-                    Distancia
+                    Distancia...
                 </InputLabel>
                 <NativeSelect
-                    defaultValue={30}
+                    defaultValue={10}
                     inputProps={{
                         name: 'distancia',
                         id: 'uncontrolled-native',
