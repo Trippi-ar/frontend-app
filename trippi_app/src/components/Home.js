@@ -19,10 +19,12 @@ export function Home() {
             display: 'grid',
             columnGap: 3,
             rowGap: 2,
-            gridTemplateColumns: 'repeat(2, 1fr)',
+            gridTemplateColumns: 'repeat(3, 2fr)',
           }}
         >
-          <Hotel />          
+          <Hotel />   
+          <Hotel />  
+          <Hotel />     
         </Box>
       </div>
     </div>

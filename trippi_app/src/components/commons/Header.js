@@ -10,11 +10,12 @@ import Filtros from "./Filtros";
 const Header = () => {
 
     return (
+        
 
         <AppBar>
             <Toolbar style={{display: "flex", justifyContent: "space-between", alignItems: "center", }}>
                 <img src={logo} ></img>
-                <TextField id="outlined-basic" label="Buscar Aqui..." variant="outlined" size="small"/>
+                <TextField id="outlined-basic" label="Buscar Aqui..."  />
                 <Search/>
                 <IconButton href="Loggin">Login</IconButton>
             </Toolbar>

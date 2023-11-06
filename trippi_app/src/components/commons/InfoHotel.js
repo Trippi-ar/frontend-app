@@ -9,63 +9,94 @@ function generateRandomData() {
         {
             id: 1,
             name: 'Excursion A',
-            description: 'Descripción del Hotel A',
+            description: 'Descripción de excursion A',
             image: 'https://picsum.photos/200',
+            ubication: "Sierras de Cordoba",
+            date:"10/10/2023",
+            activity: "Trekin",
+            
         },
         {
             id: 2,
             name: 'Excursion B',
-            description: 'Descripción del Hotel B',
+            description: 'Descripción de excursion B',
             image: 'https://picsum.photos/201',
+            ubication: "Sierras de Cordoba",
+            date:"10/10/2023",
+            activity: "Palestra",
         },
         
         {
             id: 3,
             name: 'Excursion C',
-            description: 'Descripción del Hotel B',
+            description: 'Descripción de excursion C',
             image: 'https://picsum.photos/202',
+            ubication: "Sierras de Cordoba",
+            date:"10/10/2023",
+            activity: "Excursion",
         },
         {
             id: 4,
             name: 'Excursion D',
-            description: 'Descripción del Hotel B',
+            description: 'Descripción de excursion D',
             image: 'https://picsum.photos/203',
+            ubication: "Sierras de Cordoba",
+            date:"10/10/2023",
+            activity: "Senderismo",
         },
         {
             id: 5,
             name: 'Excursion E',
-            description: 'Descripción del Hotel B',
+            description: 'Descripción de excursion E',
             image: 'https://picsum.photos/204',
+            ubication: "Sierras de Cordoba",
+            date:"10/10/2023",
+            activity: "Avistamiento de aves",
         },
         {
             id: 6,
             name: 'Excursion F',
-            description: 'Descripción del Hotel B',
+            description: 'Descripción de excursion F',
             image: 'https://picsum.photos/205',
+            ubication: "Sierras de Cordoba",
+            date:"10/10/2023",
+            activity: "Trekin",
         },
         {
             id: 7,
             name: 'Excursion G',
-            description: 'Descripción del Hotel B',
+            description: 'Descripción de excursion G',
             image: 'https://picsum.photos/206',
+            ubication: "Sierras de Cordoba",
+            date:"10/10/2023",
+            activity: "Trekin",
         },
         {
             id: 8,
             name: 'Excursion H',
-            description: 'Descripción del Hotel B',
+            description: 'Descripción de excursion H',
             image: 'https://picsum.photos/207',
+            ubication: "Sierras de Cordoba",
+            date:"10/10/2023",
+            activity: "Caminata",
         },
         {
             id: 9,
             name: 'Excursion I',
-            description: 'Descripción del Hotel B',
+            description: 'Descripción de excursion I',
             image: 'https://picsum.photos/208',
+            ubication: "Sierras de Cordoba",
+            date:"10/10/2023",
+            activity: "Trekin",
         },
         {
             id: 10,
             name: 'Excursion J',
-            description: 'Descripción del Hotel B',
+            description: 'Descripción de excursion J',
             image: 'https://picsum.photos/209',
+            ubication: "Sierras de Cordoba",
+            date:"10/10/2023",
+            activity: "Trekin",
         },
 
     ];
@@ -100,6 +131,12 @@ export default function Hotel() {
                                 <Typography variant="h5">{randomHotel.name}</Typography>
                                 <Typography component="p" variant="body2">
                                     {randomHotel.description}
+                                </Typography>
+                                <Typography component="h3" variant="body2">
+                                    {randomHotel.activity}
+                                </Typography>
+                                <Typography component="h4" variant="body2">
+                                    {randomHotel.ubication}
                                 </Typography>
                             </CardContent>
                             <CardActions>

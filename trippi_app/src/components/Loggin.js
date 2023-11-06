@@ -73,7 +73,7 @@ function Login() {
         </form>
         <div id="formFooter">
           <a className="underlineHover" href="#">Forgot Password?</a>
-          <a className="underlineHover" href="#">Back</a>
+          <a className="underlineHover" href="./">Back</a>
         </div>
       </div>
     </div>
