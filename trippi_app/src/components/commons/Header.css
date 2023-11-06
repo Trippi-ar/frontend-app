@@ -8,8 +8,17 @@
     width: 600px;
     height: 40px;
     font-size: 14px;
+    border-radius: 10px;
+   
 }
 
-.logo{
-    justify-content: space-between;
+.barra{
+   justify-content: space-between;
+    align-items: center;
+    display: flex;
+}
+
+.login{
+    color: white;
+    font-size: 28px;
 }

@@ -3,15 +3,16 @@ import Box from '@mui/material/Box';
 import InputLabel from '@mui/material/InputLabel';
 import FormControl from '@mui/material/FormControl';
 import NativeSelect from '@mui/material/NativeSelect';
+import './filtros.css';
 
 export default function Filtros() {
     return (
-        <Box sx={{ minWidth: 120 , display: "flex", marginTop:5}}>
+        <Box sx={{ minWidth: 120 , display: "flex", marginTop:5, color:'white'}}>
             <FormControl fullWidth>
                 <InputLabel variant="outlined" htmlFor="uncontrolled-native">
                     Ubicacion
                 </InputLabel>
-                <NativeSelect
+                <NativeSelect class="input"
                     defaultValue={10}
                     inputProps={{
                         name: 'ubicacion',

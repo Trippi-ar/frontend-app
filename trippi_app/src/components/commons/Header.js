@@ -1,6 +1,6 @@
 import React from "react";
 import logo from "../images/Logo.png";
-
+import './Header.css';
 import { AppBar, Toolbar , makeStyles, TextField, IconButton} from "@mui/material";
 import { Search } from "@mui/icons-material";
 import {Login} from "@mui/icons-material";
@@ -12,17 +12,21 @@ const Header = () => {
     return (
         
 
-        <AppBar>
-            <Toolbar style={{display: "flex", alignItems: "center", }}>
-                <img  src={logo} ></img>
-                <input class="buscador" placeholder="Buscar..."></input>
-                <Search clas="search"></Search>
-                <IconButton href="Loggin">Login</IconButton>
-            </Toolbar>
-            <Filtros/>
-
-
-        </AppBar>
+<AppBar>
+  <Toolbar style={{ display: "flex", justifyContent: "space-between" }}>
+    <div style={{ display: "flex"}}>
+      <img src={logo} alt="Logo" style={{ marginRight: "10px" }} />
+      <div class="barra">
+        <input className="buscador" placeholder="Buscar..."/>
+        <Search className="search" />
+      </div>
+    </div>
+    <div>
+      <IconButton class="login" href="Loggin">Sing Up</IconButton>
+    </div>
+  </Toolbar>
+  <Filtros />
+</AppBar>
     );
 }
 
