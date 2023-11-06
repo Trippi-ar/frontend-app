@@ -1,0 +1,77 @@
+/* Estilos para el formulario de inicio de sesión */
+body {
+  font-family: Arial, sans-serif;
+  background-color: #ffff;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.login-container {
+  background-color: #fff;
+  border-radius: 5px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  padding: 20px;
+  text-align: center;
+  max-width: 300px;
+}
+
+h1 {
+  color: #333;
+  margin-bottom: 15%;
+  text-align: center;
+  color: white;
+}
+
+.form-group {
+  margin-bottom: 15px;
+  text-align: left;
+}
+
+.caja{
+ margin-left: -10%;
+}
+
+.div{
+  border-radius: 10px 10px 10px 10px;
+  width: 300px; 
+  height: 400px; /* Altura al 100% */
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: #1976d2;
+  box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.3), -5px -5px 15px rgba(0, 0, 0, 0.4); /* Agregar sombreado en los cuatro lados */
+}
+label {
+  display: block;
+  font-weight: bold;
+  margin-bottom: 5px;
+  color: white;
+}
+
+input {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 3px;
+  margin-bottom: 10px;
+}
+
+button {
+  width: 100%;
+  padding: 10px;
+  background-color: rgb(99, 42, 42);
+  color: #fff;
+  border: none;
+  border-radius: 3px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+button:hover {
+  background-color: #000000;
+}
