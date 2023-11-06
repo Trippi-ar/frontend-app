@@ -13,10 +13,10 @@ const Header = () => {
         
 
         <AppBar>
-            <Toolbar style={{display: "flex", justifyContent: "space-between", alignItems: "center", }}>
-                <img src={logo} ></img>
-                <TextField id="outlined-basic" label="Buscar Aqui..."  />
-                <Search/>
+            <Toolbar style={{display: "flex", alignItems: "center", }}>
+                <img  src={logo} ></img>
+                <input class="buscador" placeholder="Buscar..."></input>
+                <Search clas="search"></Search>
                 <IconButton href="Loggin">Login</IconButton>
             </Toolbar>
             <Filtros/>
