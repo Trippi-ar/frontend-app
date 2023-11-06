@@ -24,9 +24,6 @@ export function Home() {
         >
           <Hotel />
           <Hotel />
-          <Hotel />
-          <Hotel />
-          <Hotel />
         </Box>
       </div>
     </div>

@@ -9,50 +9,66 @@ export default function Filtros() {
         <Box sx={{ minWidth: 120 , display: "flex", marginTop:5}}>
             <FormControl fullWidth>
                 <InputLabel variant="outlined" htmlFor="uncontrolled-native">
-                    Distancia...
+                    Ubicacion
                 </InputLabel>
                 <NativeSelect
                     defaultValue={10}
                     inputProps={{
-                        name: 'distancia',
+                        name: 'ubicacion',
                         id: 'uncontrolled-native',
                     }}
                 >
-                    <option value={1}>Cerca</option>
-                    <option value={2}>Lejos</option>
-                    <option value={3}>Muy Lejos</option>
+                    <option value={1}>Sierras de cba</option>
+                    <option value={2}>Sierras de san luis</option>
+                    <option value={3}>Algun lugar del mundo</option>
                 </NativeSelect>
             </FormControl>
             <FormControl fullWidth>
                 <InputLabel variant="outlined" htmlFor="uncontrolled-native">
-                    Valoracion
+                    Actividad
                 </InputLabel>
                 <NativeSelect
                     defaultValue={30}
                     inputProps={{
-                        name: 'valoracion',
+                        name: 'actividad',
                         id: 'uncontrolled-native',
                     }}
                 >
-                    <option value={1}>Bueno</option>
-                    <option value={2}>Medio</option>
-                    <option value={3}>Malo</option>
+                    <option value={1}>Treking</option>
+                    <option value={2}>Playa nudista</option>
+                    <option value={3}>Lugares de mala muerte</option>
                 </NativeSelect>
             </FormControl>
             <FormControl fullWidth>
                 <InputLabel variant="outlined" htmlFor="uncontrolled-native">
-                    Costo
+                   Fecha
                 </InputLabel>
                 <NativeSelect
                     defaultValue={30}
                     inputProps={{
-                        name: 'Costo',
+                        name: 'Fecha',
                         id: 'uncontrolled-native',
                     }}
                 >
-                    <option value={1}>Caro</option>
-                    <option value={2}>Medio</option>
-                    <option value={3}>Barato</option>
+                    <option value={1}>Aca va un calendario</option>
+                    <option value={2}>Aca va un calendario</option>
+                    <option value={3}>Aca va un calendario</option>
+                </NativeSelect>
+            </FormControl>
+            <FormControl fullWidth>
+                <InputLabel variant="outlined" htmlFor="uncontrolled-native">
+                    Nombre
+                </InputLabel>
+                <NativeSelect
+                    defaultValue={10}
+                    inputProps={{
+                        name: 'Nombre',
+                        id: 'uncontrolled-native',
+                    }}
+                >
+                    <option value={1}>Llenar con lo que trae el endpoint</option>
+                    <option value={2}>Llenar con lo que trae el endpoint</option>
+                    <option value={3}>Llenar con lo que trae el endpoints</option>
                 </NativeSelect>
             </FormControl>
         </Box>
