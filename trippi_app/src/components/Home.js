@@ -18,12 +18,11 @@ export function Home() {
           sx={{
             display: 'grid',
             columnGap: 3,
-            rowGap: 1,
+            rowGap: 2,
             gridTemplateColumns: 'repeat(2, 1fr)',
           }}
         >
-          <Hotel />
-          <Hotel />
+          <Hotel />          
         </Box>
       </div>
     </div>
